@@ -1,0 +1,133 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+
+body{
+	font-family: Helvetica, Verdana,sans-serif;
+	background: #e6e6e6;
+	font-size: 16px;
+}
+
+h1{
+	font-size: 2.5em;
+}
+
+#container-links a:link, #container-links a:visited{
+	padding: 10px 12px;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+#container-links a:hover{
+	color:#f7b600;
+	text-decoration: none;
+	background: white;
+}
+
+#container-conteudo a:link, #container-conteudo a:visited{
+	text-decoration: none;
+	color: #f7b600;
+	font-size: 0.9em;
+}
+
+#container-conteudo a:hover{
+	text-decoration: underline;
+	color: #f7b600;
+}
+
+.cinza{
+	color:#4e4e4e;
+}
+
+#container-menu{
+	height:120px;
+}
+
+#menu{
+	text-align: center;
+	padding: 10px;
+	background: #f7b600;
+	color:white; 
+	margin:0px;
+	position: fixed;
+	width:100%;
+	height: 100px;
+	z-index: 1;
+}
+
+#container-links{
+	text-align: center;
+	margin-top:0px;
+	position: relative;
+	top:-15px;
+}
+
+
+.centralizar{
+	margin: 0px auto;
+}
+
+#container-conteudo{
+	overflow: hidden;
+}
+
+#container-central{
+	margin-left:250px;
+	width: 700px;
+	float:left;
+}
+
+#container-lateral{
+	margin-left: 50px;
+	width: 250px;
+	float:left;
+}
+
+.conteudo-central{
+	border: 1px solid white;
+	margin-top: 15px;
+	background: white;
+}
+
+.texto-central{
+	margin: 10px 30px;
+}
+
+.conteudo-lateral{
+	border: 1px solid white;
+	margin-top: 15px;
+	background: white;
+}
+
+.titulo-central{
+	font-size: 2em;
+	color:#f7b600;
+	font-weight: 200;
+}
+
+.texto-lateral{
+	margin:15px 5px;
+}
+
+.titulo-lateral{
+	font-size: 1.5em;
+	color:#565656;
+	background: #CCC;
+	padding: 2px;
+	margin-top: 5px;
+}
+
+
+#container-rodape{
+	clear:both;
+	text-align: center;
+	width: 1000px;
+	margin-left: 250px;
+}
+
+#rodape{
+	background: #ccc;
+	margin-top: 20px;
+	padding: 15px;
+}
